@@ -1,0 +1,24 @@
+{
+  "persons": [
+    {
+      "id": "968a",
+      "name": "Kissa",
+      "number": "123456789"
+    },
+    {
+      "id": "d6bf",
+      "name": "Kokkeli",
+      "number": "353454"
+    },
+    {
+      "id": "e930",
+      "name": "Testataan",
+      "number": "4546546456"
+    },
+    {
+      "id": "969d",
+      "name": "Peikko Pekkala",
+      "number": "00505050505"
+    }
+  ]
+}
