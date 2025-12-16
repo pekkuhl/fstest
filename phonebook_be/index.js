@@ -2,8 +2,6 @@ const express = require("express")
 const app = express()
 app.use(express.json())
 const cors = require("cors")
-app.use(cors())
-app.use(express.static('dist'))
 
 const generateId = () => {
     const maxId = persons.length > 0
