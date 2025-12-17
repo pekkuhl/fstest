@@ -13,7 +13,11 @@ const App = () => {
   const [errMessage, setErrMessage] = useState({ type: null, message: null });
 
   useEffect(() => {
-    Service.getAll().then((data) => setPersons(data));
+    
+    Service.getAll().then((data) => {
+      console.log("data näyttää tältä", data)
+      setPersons(data)
+    })
   }, []);
 
   const handleChange = (e) => {
